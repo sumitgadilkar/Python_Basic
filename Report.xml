@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="SumitGadilkar" name="pytest" skipped="0" tests="3" time="0.211" timestamp="2021-04-23T18:40:15.428072"><testcase classname="Extra_practise.test_py" name="test_1" time="0.002" /><testcase classname="Extra_practise.test_py" name="test_2" time="0.002"><failure message="AssertionError: {name} is not present in Title&#10;assert 'Selencls' in 'Name is Selenium'">def test_2():
+        name = "Selencls"
+        title = "Name is Selenium"
+&gt;       assert name in title, "{name} is not present in Title"
+E       AssertionError: {name} is not present in Title
+E       assert 'Selencls' in 'Name is Selenium'
+
+Extra_practise\test_py.py:12: AssertionError</failure></testcase><testcase classname="Extra_practise.test_py" name="test_3" time="0.002"><failure message="AssertionError: Title not matches&#10;assert 'jenkins' in 'Jenkins is CI CD platform'">def test_3():
+        name = "jenkins"
+        title= "Jenkins is CI CD platform"
+&gt;       assert name in title, "Title not matches"
+E       AssertionError: Title not matches
+E       assert 'jenkins' in 'Jenkins is CI CD platform'
+
+Extra_practise\test_py.py:18: AssertionError</failure></testcase></testsuite></testsuites>
